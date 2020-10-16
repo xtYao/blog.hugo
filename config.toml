@@ -1,0 +1,51 @@
+baseurl = "https://xtyao.github.io/"
+languageCode = "en-US"
+title = "Xiaotong Yao"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Xiaotong Yao"
+  description = "Xiaotong Yao's page"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "xtYao"
+  Email         = "xiy2006@med.cornell.edu"
+  Twitter       = "xtYao"
+  LinkedIn      = "xtYao"
+#  Stackoverflow = "xtYao"
+#  Medium        = "username"
+#  Telegram      = "username"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "publications"
+  identifier = "publications"
+  weight = 200
+  url = "/publications/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/resume.pdf"
+[[menu.main]]
+  name = "CV"
+  identifier = "cv"
+  weight = 300
+  url = "/cv/cv.pdf"
